@@ -1,0 +1,20 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC by University of Oxford
+# Example usage: python train.py --data VOC.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── VOC  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+train_rgb: /home/aaa/datasets/M3FD/split/train.txt  # reference modality (RGB)
+val_rgb: /home/aaa/datasets/M3FD/split/val.txt # reference modality (RGB)
+train_ir: /home/aaa/datasets/M3FD/split/train2.txt # 128 images
+val_ir: /home/aaa/datasets/M3FD/split/val2.txt  # 128 images
+# Classes
+nc: 6  # number of classes
+names: [People, Car, Bus, Motorcycle, Lamp, Truck]  # class names
+
+

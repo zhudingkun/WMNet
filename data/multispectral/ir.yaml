@@ -1,0 +1,13 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train_rgb: /home/aaa/WMNet/data/DVTODdataset/ir1/images/train  # reference modality (IR)
+val_rgb: /home/aaa/WMNet/data/DVTODdataset/ir1/images/val  # reference modality (IR)
+train_ir: /home/aaa/WMNet/data/DVTODdataset/vis1/images/train  
+val_ir: /home/aaa/WMNet/data/DVTODdataset/vis1/images/val  
+
+# number of classes
+nc: 3
+
+# class names
+names: [ 'person','car','bicycle']
