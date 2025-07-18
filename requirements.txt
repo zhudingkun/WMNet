@@ -12,8 +12,9 @@ torchvision>=0.8.1
 tqdm>=4.41.0
 #wavelet
 pywavelets
-#mamba-ssm
+mamba-ssm
 causal_conv1d
+
 # logging -------------------------------------
 tensorboard>=2.4.1
 # wandb
